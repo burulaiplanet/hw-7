@@ -6,10 +6,10 @@ function Comment(props) {
 	return (
 		<div className='Comment'>
 			<UserInfo author={props.author} />
-     <CommentWrapper className='name-date'>
-			<div className='Comment-text'>{props.text}</div>
-			<CommentDate date={props.date} />
-      </CommentWrapper>
+			<CommentWrapper className='name-date'>
+				<div className='Comment-text'>{props.text}</div>
+				<CommentDate date={props.date} />
+			</CommentWrapper>
 		</div>
 	)
 }
